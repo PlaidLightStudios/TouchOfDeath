@@ -12,6 +12,7 @@ namespace TouchOfDeath
     public class MainActivity : Activity
     {
         int count = 1;
+        public int scene = 0;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -25,6 +26,27 @@ namespace TouchOfDeath
             Button button = FindViewById<Button>(Resource.Id.MyButton);
 
             button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+        }
+
+        void Update()
+        {
+            switch (scene)
+            {
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+            }
         }
     }
 }
