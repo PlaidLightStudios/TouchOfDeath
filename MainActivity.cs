@@ -30,15 +30,18 @@ namespace TouchOfDeath
             button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
         }
 
+		//Fills array to max size while array is smaller than max
 		void fillArray(){
 			if (targetArray.length < 10) {
 				targetArray.Add (new Projectile());
 			}
 		}
 
+		//Checks all objects in targetArray for death flag and removes marked objects
 		void checkDead(){
 			targetArray.removeAll(x=>x.isDead == true);
 		}
+			
 
         void Update()
         {
@@ -59,6 +62,8 @@ namespace TouchOfDeath
                 case 6:
                     break;
             }
+
+			//gameplay logic
 			checkDead ();
 			fillArray();
 
