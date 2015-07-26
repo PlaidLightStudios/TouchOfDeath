@@ -1,0 +1,4 @@
+TouchOfDeath.MainActivity, TouchOfDeath;md5081e78bda26ed1887180761dba5d0904.MainActivity
+TouchOfDeath.MainActivity, TouchOfDeath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5081e78bda26ed1887180761dba5d0904.MainActivity
+TouchOfDeath.MainActivity;md5081e78bda26ed1887180761dba5d0904.MainActivity
+touchofdeath.MainActivity;md5081e78bda26ed1887180761dba5d0904.MainActivity
