@@ -1,0 +1,13 @@
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/MonoAndroid,Version=v5.0.AssemblyAttribute.cs
+/Users/kenn/GitHub/TouchOfDeath/bin/Debug/TouchOfDeath.dll.mdb
+/Users/kenn/GitHub/TouchOfDeath/bin/Debug/TouchOfDeath.dll
+/Users/kenn/GitHub/TouchOfDeath/bin/Debug/TouchOfDeath.TouchOfDeath.apk
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/android/bin/TouchOfDeath.TouchOfDeath.apk
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/res/layout/main.xml
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/res/values/strings.xml
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/res/drawable/icon.png
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/R.cs.flag
+/Users/kenn/GitHub/TouchOfDeath/bin/Debug/TouchOfDeath.TouchOfDeath-Signed.apk
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/uploadflags.txt
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/TouchOfDeath.dll
+/Users/kenn/GitHub/TouchOfDeath/obj/Debug/TouchOfDeath.dll.mdb

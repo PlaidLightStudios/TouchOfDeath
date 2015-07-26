@@ -13,13 +13,13 @@ using Android.Graphics;
 
 namespace TouchOfDeath
 {
-    class Projectile
+    public class Projectile
     {
         //texture
         public Bitmap texture;
         //direction of travel, Vector2
         //origin point, Vector2
-        bool isDead;
+        public bool isDead;
 
         void projectile(string textName, bool isDead)
         {

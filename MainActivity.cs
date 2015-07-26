@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Collections.Generic;
 
 namespace TouchOfDeath
 {
@@ -32,14 +33,14 @@ namespace TouchOfDeath
 
 		//Fills array to max size while array is smaller than max
 		void fillArray(){
-			if (targetArray.length < 10) {
+			if (targetArray.Count < 10) {
 				targetArray.Add (new Projectile());
 			}
 		}
 
 		//Checks all objects in targetArray for death flag and removes marked objects
 		void checkDead(){
-			targetArray.removeAll(x=>x.isDead == true);
+			targetArray.RemoveAll(x=>x.isDead == true);
 		}
 			
 
