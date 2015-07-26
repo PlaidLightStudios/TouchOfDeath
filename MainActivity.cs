@@ -13,6 +13,8 @@ namespace TouchOfDeath
     {
         int count = 1;
         public int scene = 0;
+		public int maxTargets = 10;
+		public List<Projectile> targetArray = new List<Projectile>();
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -27,6 +29,16 @@ namespace TouchOfDeath
 
             button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
         }
+
+		void fillArray(){
+			if (targetArray.length < 10) {
+				targetArray.Add (new Projectile());
+			}
+		}
+
+		void checkDead(){
+			targetArray.removeAll(x=>x.isDead == true);
+		}
 
         void Update()
         {
@@ -47,7 +59,12 @@ namespace TouchOfDeath
                 case 6:
                     break;
             }
+			checkDead ();
+			fillArray();
+
         }
+
+
     }
 }
 
